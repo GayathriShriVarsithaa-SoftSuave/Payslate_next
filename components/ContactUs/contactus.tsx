@@ -8,7 +8,8 @@ export default function Contactus(){
                     <p className="text-[#932EFA] font-semibold text-[16px] leading-[150%] uppercase">contact us</p>
                     <div>
                         <p className="font-bold text-[56px] leading-[130%] mt-[24px]">We are always happy to assist you</p>
-                        <Button sx={{ textTransform: "uppercase", fontSize: "16px", fontWeight: "bold", backgroundColor: "#804FB0", color:"white", borderRadius:"16px",marginTop:"24px"}}>Contact Us</Button>
+                        <a href="mailto:support@dotmite.com">
+                        <Button sx={{ textTransform: "uppercase", fontSize: "16px", fontWeight: "bold", backgroundColor: "#804FB0", color:"white", borderRadius:"16px",marginTop:"24px"}}>Contact Us</Button></a>
                     </div>
                 </div>
                 <div className="flex flex-row h-[294px] w-[722px] mt-[80px] justify-between mr-[294px]">

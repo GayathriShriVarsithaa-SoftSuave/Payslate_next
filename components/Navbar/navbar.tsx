@@ -24,6 +24,7 @@ export default function Navbar(){
             <p>Payslate</p>
         </div>
         <a href="#home">Home</a>
+        <a href="#how-it-works">How It Works</a>
         <a href="#contact-us">Contact Us</a>
         <a href="#downloadapp"><Button sx={{backgroundColor:"#804FB0",borderRadius:"16px",color:"white",textTransform:"none"}}>Download App</Button></a>
     </nav>
