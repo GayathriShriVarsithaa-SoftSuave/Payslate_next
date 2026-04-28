@@ -6,12 +6,12 @@ export default function HowItWorks(){
             <div className="bg-[#F6F6F6] h-[1416px]">
             <div className="flex flex-row justify-between items-center h-[124px] w-[1404] mx-auto pt-[120px] mb-[120px]">
                 <div>
-                    <p className="text-[16px] font-semibold text-[#932EFA] uppercase leading-[150%]">How It Works</p>
+                    <p className="text-[16px] font-semibold text-violettxt uppercase leading-[150%]">How It Works</p>
                     <p className="font-bold text-[40px] leading-[120%] mt-[4px]">Manage Your Business Finances <br />in 3 Simple Steps</p>
                 </div>
                 <div>
                     <a href="#downloadapp">
-                    <Button sx={{color:"white",textTranform:"false",backgroundColor:"#804FB0",borderRadius:"30px"}}>Get Started Now</Button></a>
+                    <Button sx={{color:"white",textTranform:"false",backgroundColor:"var(--buttonbg)",borderRadius:"30px"}}>Get Started Now</Button></a>
                 </div>
             </div>
             <div className="mt-48px bg-[white] w-[1400px] mx-auto flex flex-row justify-between mt-[48px] rounded-3xl">

@@ -18,7 +18,7 @@ export default function Navbar(){
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
     return(
-    <nav className="flex flex-row justify-around h-[80px] w-[987px] bg-[white] items-center mx-auto mt-[17px] rounded-full shadow-lg z-10 fixed left-1/2 -translate-x-1/2 transition-all duration-700" style={{top:shownav?"0px":"-100px"}}>
+    <nav className="flex flex-row justify-around h-[80px] w-auto bg-[white] items-center gap-[50px] px-[15px] mx-auto mt-[17px] rounded-full shadow-lg z-10 fixed left-1/2 -translate-x-1/2 transition-all duration-700" style={{top:shownav?"0px":"-100px"}}>
         <div className="flex flex-row items-center gap-[10px]">
             <img src="/logo.gif" className="w-[22.96px] h-[32px]"/>
             <p>Payslate</p>
@@ -26,7 +26,7 @@ export default function Navbar(){
         <a href="#home">Home</a>
         <a href="#how-it-works">How It Works</a>
         <a href="#contact-us">Contact Us</a>
-        <a href="#downloadapp"><Button sx={{backgroundColor:"#804FB0",borderRadius:"16px",color:"white",textTransform:"none"}}>Download App</Button></a>
+        <a href="#downloadapp"><Button sx={{backgroundColor:"var(--buttonbg)",borderRadius:"16px",color:"white",textTransform:"none"}}>Download App</Button></a>
     </nav>
     );
 }

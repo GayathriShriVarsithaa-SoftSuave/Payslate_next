@@ -8,7 +8,7 @@ export default function Home(){
         <div  className="bg-[url('/homeBg.png')] bg-cover bg-no-repeat bg-center h-[800px] w-[1851px] rounded-[24px] mx-auto">
             <div className="flex flex-row justify-around ">
                 <div className="h-[703px] w-[673px] mt-[122px]">
-                    <p className="leading-[150%] text-[16px] text-[#932EFA] font-semibold">Payslate</p>
+                    <p className="leading-[150%] text-[16px] text-violettxt font-semibold">Payslate</p>
                     <p className="font-bold leading-[120%] text-6xl ">Your Business Financial Chalkboard</p>
                     <p className="text-[18px] leading-[150%] mt-[40px]">Payslate brings your cash flow, material tracking, vendor management, and transactions into one secure, real-time platform built for industrial businesses.</p>
                     <div className="h-[48px] w-[312px] flex flex-row justify-between mt-[40px]">
@@ -28,7 +28,7 @@ export default function Home(){
         {/* second half */}
         <div className="h-[884px] bg-[white]">
             <div className="mt-[4px]">
-                <motion.div initial={{y:-120,opacity:0}} animate={isInView ? { y:0,opacity:1} :{ y:-120,opacity:0}} transition={{ease:"easeIn",duration:0.6}} className="text-[#932EFA] font-semibold text-[16px] leading-[150%] uppercase w-[1403px] mx-auto">Features</motion.div>
+                <motion.div initial={{y:-120,opacity:0}} animate={isInView ? { y:0,opacity:1} :{ y:-120,opacity:0}} transition={{ease:"easeIn",duration:0.6}} className="text-violettxt font-semibold text-[16px] leading-[150%] uppercase w-[1403px] mx-auto">Features</motion.div>
                 <div className="flex flex-row justify-between items-center h-[96px] w-[1403px] mx-auto">
                     <motion.div  initial={{y:-120,opacity:0}} animate={isInView ? { y:0,opacity:1} :{ y:-120,opacity:0}} transition={{ease:"easeIn",duration:0.6}} >
                         <p className="font-bold text-[40px] leading-[120%] h-[96px] w-[511px]">Your Data, Structured. Your Business, Simplified.</p>

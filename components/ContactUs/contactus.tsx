@@ -5,11 +5,11 @@ export default function Contactus(){
         <div className="mx-auto">
             <div className="flex flex-row gap-[69px]">
                 <div className="h-[275px] w-[575px] mt-[80px] ml-[260px]">
-                    <p className="text-[#932EFA] font-semibold text-[16px] leading-[150%] uppercase">contact us</p>
+                    <p className="text-violettxt font-semibold text-[16px] leading-[150%] uppercase">contact us</p>
                     <div>
                         <p className="font-bold text-[56px] leading-[130%] mt-[24px]">We are always happy to assist you</p>
                         <a href="mailto:support@dotmite.com">
-                        <Button sx={{ textTransform: "uppercase", fontSize: "16px", fontWeight: "bold", backgroundColor: "#804FB0", color:"white", borderRadius:"16px",marginTop:"24px"}}>Contact Us</Button></a>
+                        <Button sx={{ textTransform: "uppercase", fontSize: "16px", fontWeight: "bold", backgroundColor: "var(--buttonbg)", color:"white", borderRadius:"16px",marginTop:"24px"}}>Contact Us</Button></a>
                     </div>
                 </div>
                 <div className="flex flex-row h-[294px] w-[722px] mt-[80px] justify-between mr-[294px]">
